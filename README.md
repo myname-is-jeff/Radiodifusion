@@ -9,12 +9,13 @@ Repositorio de la materia **430 Radiodifusión Sonora y Televisiva** de la carre
 
 **Docente:** Pablo Nicolas De Cesare
 
-##Contenido
+## Contenido
 
 Aca se va a subir la solucion de las guias de trabajos practicos que se hagan en GNU Radio asi como tambien los archivos de simulación de python en formato de ipynb.
 De todas formas se van a ir agregando los links **(con permiso de LECTURA)** a los Google Colab para su mas facil visualizacion.
 
-##Links Colab
--G1 https://colab.research.google.com/drive/1fCi6hPMEt5aRadPwupIVidMw2h3U0QBl
-
-
+## Links Colab
+- `G1`
+```bash
+https://colab.research.google.com/drive/1fCi6hPMEt5aRadPwupIVidMw2h3U0QBl
+```
