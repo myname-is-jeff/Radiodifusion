@@ -36,15 +36,15 @@ https://colab.research.google.com/drive/1fABAWncrOO9zTudyFcMdUiwis4hiq_Lo?usp=sh
 ## Mapa de Archivos y Directorios
 
 1. Guia 1 -> Guia de AM simulada en python
-1. Guia 2 -> TP1 y TP2 de AM/FM en Python y GNU Radio
-	1.Cosas Clase -> Cosas de GNU hechas en la clase teorica
-   	1.Guia Resuelata 
-		1. Parte 1:Introducción a GNURadio
-		1. Parte 2:Generación y recepción de AM/DBL
-		1. Parte 3:Generacion de FM en GNURadio
-		1. Parte 4:Recepción de FM en GNURadio
-		1. Parte 5:Generación de FM MPX en GNURadio para Ettus
-1. RADAR -> TBA
+2. Guia 2 -> TP1 y TP2 de AM/FM en Python y GNU Radio
+    1. Cosas Clase -> Cosas de GNU hechas en la clase teorica
+    2. Guia Resuelata
+        1. Parte 1:Introducción a GNURadio
+        2. Parte 2:Generación y recepción de AM/DBL
+        3. Parte 3:Generacion de FM en GNURadio
+        4. Parte 4:Recepción de FM en GNURadio
+        5. Parte 5:Generación de FM MPX en GNURadio para Ettus
+4. RADAR -> TBA
 
 ## License
 GNU GENERAL PUBLIC LICENSE
