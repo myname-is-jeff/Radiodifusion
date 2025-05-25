@@ -8,6 +8,11 @@ Repositorio de la materia **430 Radiodifusión Sonora y Televisiva** de la carre
 
 **Docente:** Pablo Nicolas De Cesare
 
+## Table Of Content
+ - [Contenido](#contenido)
+ - [Links Colab](#links-colab)
+ - [Mapa de Directorios](#mapa-de-archivos-y-directorios)
+ - [License](#license)
 ## Contenido
 
 Aca se va a subir la solucion de las guias de trabajos practicos que se hagan en GNU Radio asi como tambien los archivos de simulación de python en formato de ipynb.
@@ -37,4 +42,7 @@ https://colab.research.google.com/drive/1fABAWncrOO9zTudyFcMdUiwis4hiq_Lo?usp=sh
 	1. Parte 3:Generacion de FM en GNURadio
 	1. Parte 4:Recepción de FM en GNURadio
 	1. Parte 5:Generación de FM MPX en GNURadio para Ettus
-1.RADAR -> TBA
+1. RADAR -> TBA
+
+## License
+GNU GENERAL PUBLIC LICENSE
