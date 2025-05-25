@@ -16,5 +16,25 @@ De todas formas se van a ir agregando los links **(con permiso de LECTURA)** a l
 ## Links Colab
 - `G1`
 ```bash
-https://colab.research.google.com/drive/1fCi6hPMEt5aRadPwupIVidMw2h3U0QBl
+https://colab.research.google.com/drive/1fCi6hPMEt5aRadPwupIVidMw2h3U0QBl?usp=sharing
 ```
+- `G2 FM`
+```bash
+https://colab.research.google.com/drive/1GTc8y9zrm7WG8C34Jj4iLIYG1dyX5Wvq?usp=sharing
+```
+
+- `AM con CSV del Lab de Mediciones`
+```bash
+https://colab.research.google.com/drive/1fABAWncrOO9zTudyFcMdUiwis4hiq_Lo?usp=sharing
+```
+
+## Mapa de Archivos y Directorios
+
+1. Guia 1 -> Guia de AM simulada en python
+1. Guia 2 -> TP1 y TP2 de AM/FM en Python y GNU Radio
+	1. Parte 1:Introducción a GNURadio
+	1. Parte 2:Generación y recepción de AM/DBL
+	1. Parte 3:Generacion de FM en GNURadio
+	1. Parte 4:Recepción de FM en GNURadio
+	1. Parte 5:Generación de FM MPX en GNURadio para Ettus
+1.RADAR -> TBA

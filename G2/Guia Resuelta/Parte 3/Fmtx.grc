@@ -73,22 +73,6 @@ blocks:
     coordinate: [608, 464.0]
     rotation: 0
     state: enabled
-- name: analog_frequency_modulator_fc_0_0
-  id: analog_frequency_modulator_fc
-  parameters:
-    affinity: ''
-    alias: ''
-    comment: ''
-    maxoutbuf: '0'
-    minoutbuf: '0'
-    sensitivity: 2*np.pi*deltaF/samp_rate
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [672, 576.0]
-    rotation: 0
-    state: disabled
 - name: analog_sig_source_x_0
   id: analog_sig_source_x
   parameters:
@@ -96,7 +80,7 @@ blocks:
     alias: ''
     amp: '1'
     comment: msj
-    freq: 1e3
+    freq: '37500'
     maxoutbuf: '0'
     minoutbuf: '0'
     offset: '0'
@@ -112,24 +96,6 @@ blocks:
     coordinate: [48, 200.0]
     rotation: 0
     state: enabled
-- name: blocks_add_const_vxx_0
-  id: blocks_add_const_vxx
-  parameters:
-    affinity: ''
-    alias: ''
-    comment: ''
-    const: '1'
-    maxoutbuf: '0'
-    minoutbuf: '0'
-    type: float
-    vlen: '1'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [464, 576.0]
-    rotation: 0
-    state: disabled
 - name: blocks_complex_to_float_0
   id: blocks_complex_to_float
   parameters:
@@ -146,22 +112,24 @@ blocks:
     coordinate: [872, 456.0]
     rotation: 0
     state: enabled
-- name: blocks_complex_to_float_0_0
-  id: blocks_complex_to_float
+- name: blocks_integrate_xx_0
+  id: blocks_integrate_xx
   parameters:
     affinity: ''
     alias: ''
     comment: ''
+    decim: '1'
     maxoutbuf: '0'
     minoutbuf: '0'
+    type: float
     vlen: '1'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [880, 568.0]
+    coordinate: [576, 224.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: blocks_throttle2_0
   id: blocks_throttle2
   parameters:
@@ -193,14 +161,14 @@ blocks:
     maxoutbuf: '0'
     minoutbuf: '0'
     samp_rate: samp_rate
-    sensitivity: 100e3
+    sensitivity: (2*np.pi*deltaF)
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [608, 228.0]
+    coordinate: [808, 124.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: import_0
   id: import
   parameters:
@@ -292,7 +260,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1344, 580.0]
+    coordinate: [1312, 100.0]
     rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_0
@@ -389,9 +357,9 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1408, 220.0]
+    coordinate: [1360, 260.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: qtgui_time_sink_x_0_0
   id: qtgui_time_sink_x
   parameters:
@@ -446,7 +414,7 @@ blocks:
     marker8: '-1'
     marker9: '-1'
     name: '""'
-    nconnections: '3'
+    nconnections: '2'
     size: '1024'
     srate: samp_rate
     stemplot: 'False'
@@ -488,21 +456,18 @@ blocks:
     bus_structure: null
     coordinate: [1352, 460.0]
     rotation: 0
-    state: disabled
+    state: enabled
 
 connections:
 - [analog_frequency_modulator_fc_0, '0', blocks_complex_to_float_0, '0']
-- [analog_frequency_modulator_fc_0_0, '0', blocks_complex_to_float_0_0, '0']
 - [analog_sig_source_x_0, '0', blocks_throttle2_0, '0']
-- [blocks_add_const_vxx_0, '0', analog_frequency_modulator_fc_0_0, '0']
-- [blocks_complex_to_float_0, '0', qtgui_freq_sink_x_0, '0']
 - [blocks_complex_to_float_0, '0', qtgui_time_sink_x_0_0, '1']
-- [blocks_complex_to_float_0_0, '0', qtgui_time_sink_x_0_0, '2']
+- [blocks_integrate_xx_0, '0', blocks_vco_f_0, '0']
 - [blocks_throttle2_0, '0', analog_frequency_modulator_fc_0, '0']
-- [blocks_throttle2_0, '0', blocks_add_const_vxx_0, '0']
-- [blocks_throttle2_0, '0', blocks_vco_f_0, '0']
+- [blocks_throttle2_0, '0', blocks_integrate_xx_0, '0']
 - [blocks_throttle2_0, '0', qtgui_time_sink_x_0, '1']
 - [blocks_throttle2_0, '0', qtgui_time_sink_x_0_0, '0']
+- [blocks_vco_f_0, '0', qtgui_freq_sink_x_0, '0']
 - [blocks_vco_f_0, '0', qtgui_time_sink_x_0, '0']
 
 metadata:
