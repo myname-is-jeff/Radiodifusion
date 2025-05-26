@@ -6,7 +6,7 @@
 
 Repositorio de la materia **430 Radiodifusión Sonora y Televisiva** de la carrera Ing. Electronica en la UCA
 
-**Docente:** Pablo Nicolas De Cesare
+**Docente:** Ing. Pablo Nicolas De Cesare
 
 ## Table Of Content
  - [Contenido](#contenido)
