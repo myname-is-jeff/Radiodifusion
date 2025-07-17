@@ -33,6 +33,10 @@ https://colab.research.google.com/drive/1GTc8y9zrm7WG8C34Jj4iLIYG1dyX5Wvq?usp=sh
 https://colab.research.google.com/drive/1fABAWncrOO9zTudyFcMdUiwis4hiq_Lo?usp=sharing
 ```
 
+- `G3 NTSC`
+```bash
+https://colab.research.google.com/drive/1iaJ4iZyUWKOdcs_K83D2OAAjeKLpPmFr?usp=sharing
+```
 ## Mapa de Archivos y Directorios
 
 1. Guia 1 -> Guia de AM simulada en python
@@ -44,7 +48,8 @@ https://colab.research.google.com/drive/1fABAWncrOO9zTudyFcMdUiwis4hiq_Lo?usp=sh
         3. Parte 3:Generacion de FM en GNURadio
         4. Parte 4:Recepción de FM en GNURadio
         5. Parte 5:Generación de FM MPX en GNURadio para Ettus
-4. RADAR -> TBA
+3. Guia 3 -> TP1 y TP2 de TV Analógica en Python y GNU Radio
+4. RADAR -> Caso de estudio donde se analiza la utilización de una SDR para aplicacion de RADAR
 
 ## License
 GNU GENERAL PUBLIC LICENSE
